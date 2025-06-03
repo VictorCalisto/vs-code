@@ -1,0 +1,279 @@
+{
+  // =====================================
+  // DICAS DE ATALHOS ESSENCIAIS
+  // =====================================
+  // Copiar: Ctrl+C
+  // Colar: Ctrl+V
+  // Desfazer: Ctrl+Z
+  // Refazer: Ctrl+Y ou Ctrl+Shift+Z
+  // Selecionar tudo: Ctrl+A
+  // Salvar: Ctrl+S
+  // Abrir Busca Global: Ctrl+Shift+F
+  // Abrir Paleta de Comandos: Ctrl+Shift+P
+  // Abrir Terminal: Ctrl+`
+  // Matar processo no terminal: Ctrl+C (pressione duas vezes se necessário)
+  // Fechar terminal: Ctrl+Shift+W
+  //
+  // Para matar processos que travaram no terminal (por exemplo, docker, rails, node, etc):
+  // - Dê foco ao terminal (Ctrl+`)
+  // - Pressione Ctrl+C (pode precisar pressionar duas vezes)
+  // - Se não matar, use o ícone de lixeira no terminal ou botão direito > "Kill Terminal"
+  // - Como último recurso, feche o VSCode ou o terminal inteiro
+  // =====================================
+  // GERAL E AUTOMAÇÕES
+  // =====================================
+  "editor.formatOnSave": true,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  // Remove linhas em branco extras ao salvar
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.defaultFormatter": null, // Use por linguagem abaixo
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.snippetSuggestions": "top",
+  "editor.wordWrap": "on",
+  "editor.copyWithSyntaxHighlighting": true,
+  // =====================================
+  // ASSOCIAÇÃO DE ARQUIVOS
+  // =====================================
+  "files.associations": {
+    "*.rb": "ruby",
+    "Gemfile": "ruby",
+    "Rakefile": "ruby",
+    "*.rake": "ruby",
+    "*.gemspec": "ruby",
+    "*.ru": "ruby",
+    "*.erb": "erb",
+    "*.haml": "haml",
+    "*.slim": "slim",
+    "*.py": "python",
+    "*.ipynb": "jupyter-notebook",
+    "*.java": "java",
+    "pom.xml": "xml",
+    "*.gradle": "groovy",
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.mjs": "javascript",
+    "*.cjs": "javascript",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "Dockerfile*": "dockerfile",
+    "*.dockerfile": "dockerfile",
+    "*.sql": "sql",
+    "*.pgsql": "pgsql",
+    "*.psql": "pgsql"
+  },
+  // =====================================
+  // RUBY / RAILS
+  // =====================================
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.Ruby",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "solargraph.useBundler": true,
+  "solargraph.autoformat": true,
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  "solargraph.completion": true,
+  "solargraph.hover": true,
+  "solargraph.references": true,
+  "solargraph.rename": true,
+  "solargraph.symbols": true,
+  "solargraph.workspaceSymbols": true,
+  "solargraph.logLevel": "warn",
+  "ruby.lint": {
+    "rubocop": true,
+    "ruby": true
+  },
+  "ruby.format": "rubocop",
+  "ruby.useBundler": true,
+  "ruby.intellisense": "rubyLocate",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.lintOnSave": true,
+  "ruby.useLanguageServer": true,
+  "ruby.languageServer.enabled": true,
+  // =====================================
+  // PYTHON
+  // =====================================
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8",
+  "python.linting.flake8Args": [
+    "--max-line-length=88"
+  ],
+  "python.formatter.provider": "black",
+  "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+  "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+  "python.sortImports.args": [
+    "--profile",
+    "black"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.enablePlotViewer": true,
+  "jupyter.interactiveWindowMode": "perFile",
+  // =====================================
+  // JAVA
+  // =====================================
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-17",
+      "path": "/usr/lib/jvm/java-17-openjdk",
+      "default": true
+    }
+  ],
+  "java.format.enabled": true,
+  "java.format.settings.profile": "GoogleStyle",
+  "java.import.gradle.enabled": true,
+  "java.import.gradle.wrapper.enabled": true,
+  "java.jdt.ls.vmargs": "-javaagent:${workspaceFolder}/lombok.jar",
+  "maven.terminal.useJavaHome": true,
+  // =====================================
+  // JAVASCRIPT / TYPESCRIPT
+  // =====================================
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx"
+    ]
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.jsxSingleQuote": true,
+  "prettier.arrowParens": "avoid",
+  // =====================================
+  // TERMINAL INTEGRADO E PRODUTIVIDADE
+  // =====================================
+  "terminal.integrated.env.linux": {
+    "LANG": "en_US.UTF-8",
+    "PYTHONIOENCODING": "utf-8",
+    "JAVA_TOOL_OPTIONS": "-Dfile.encoding=UTF-8"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+  // Atalho para limpar terminal rapidamente: Ctrl+L
+  // Para abrir novo terminal: Ctrl+Shift+`
+  // Para navegar entre terminais: Ctrl+PgUp / Ctrl+PgDn
+  // Para matar processo: Ctrl+C (no terminal), ou clique no ícone de lixeira
+  // =====================================
+  // FACILIDADES EXTRAS
+  // =====================================
+  // - Multi-cursor: Alt+Click ou Ctrl+D para selecionar múltiplas ocorrências
+  // - Mover linha para cima/baixo: Alt+Up/Down
+  // - Duplicar linha: Shift+Alt+Down
+  // - Ir para definição: F12
+  // - Renomear símbolo: F2
+  // - Comentário de linha: Ctrl+/
+  // - Autocomplete: Ctrl+Space
+  // - Ajuste de zoom: Ctrl+Scroll ou Ctrl+NumPad+/-
+  // - Split Editor: Ctrl+\
+  // - Mover entre splits: Ctrl+1/2/3...
+  // ================================
+  // DOCKER
+  // ================================
+  "docker.dockerPath": "/usr/bin/docker",
+  "docker.host": "unix:///var/run/docker.sock",
+  "docker.containers.attachShellCommand.linux": "/bin/bash",
+  "docker.showExplorer": true,
+  "docker.explorerRefreshInterval": 3000,
+  "docker.languageserver.formatter.enabled": true,
+  "docker.languageserver.diagnostics.enabled": true,
+  // Mantém associações no bloco geral, veja abaixo
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+    "editor.tabSize": 2
+  },
+  // ================================
+  // SQL (MySQL, PostgreSQL, SQLite)
+  // ================================
+  "sqltools.useNodeRuntime": true,
+  "sqltools.disableWelcomeMessage": true,
+  "sqltools.telemetry": false,
+  "sqltools.format.aligned": true,
+  "sqltools.format.keywordCase": "upper",
+  "sqltools.format.identifierCase": "lower",
+  "sqltools.format.removeTrailingComma": true,
+  "[sql]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  }
+}
