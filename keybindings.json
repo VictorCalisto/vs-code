@@ -1,0 +1,141 @@
+[
+  // Copiar
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "textInputFocus"
+  },
+  // Colar
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "textInputFocus"
+  },
+  // Desfazer
+  {
+    "key": "ctrl+z",
+    "command": "undo"
+  },
+  // Refazer (Ctrl+Y)
+  {
+    "key": "ctrl+y",
+    "command": "redo"
+  },
+  // Refazer (Ctrl+Shift+Z)
+  {
+    "key": "ctrl+shift+z",
+    "command": "redo"
+  },
+  // Selecionar tudo
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll"
+  },
+  // Salvar
+  {
+    "key": "ctrl+s",
+    "command": "workbench.action.files.save"
+  },
+  // Abrir Busca Global
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.findInFiles"
+  },
+  // Abrir Paleta de Comandos
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.showCommands"
+  },
+  // Abrir Terminal
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  // Matar processo no terminal (Ctrl+C, geralmente requer duas pressionadas)
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "\u0003"
+    }, // \u0003 = Ctrl+C
+    "when": "terminalFocus"
+  },
+  // Fechar terminal
+  {
+    "key": "ctrl+shift+w",
+    "command": "workbench.action.terminal.kill"
+  },
+  // Multi-cursor: selecionar múltiplas ocorrências
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.addSelectionToNextFindMatch"
+  },
+  // Multi-cursor com clique (Alt+Click já é nativo)
+  {
+    "key": "alt+click",
+    "command": "editor.action.insertCursor"
+  },
+  // Mover linha para cima
+  {
+    "key": "alt+up",
+    "command": "editor.action.moveLinesUpAction"
+  },
+  // Mover linha para baixo
+  {
+    "key": "alt+down",
+    "command": "editor.action.moveLinesDownAction"
+  },
+  // Duplicar linha
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction"
+  },
+  // Ir para definição
+  {
+    "key": "f12",
+    "command": "editor.action.revealDefinition"
+  },
+  // Renomear símbolo
+  {
+    "key": "f2",
+    "command": "editor.action.rename"
+  },
+  // Comentário de linha
+  {
+    "key": "ctrl+/",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // Autocomplete
+  {
+    "key": "ctrl+space",
+    "command": "editor.action.triggerSuggest"
+  },
+  // Ajuste de zoom: Ctrl+Scroll é nativo. Ctrl+NumPad+ e Ctrl+NumPad- abaixo:
+  {
+    "key": "ctrl+numpad_add",
+    "command": "workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+numpad_subtract",
+    "command": "workbench.action.zoomOut"
+  },
+  // Split Editor
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  // Mover entre splits
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  }
+]
