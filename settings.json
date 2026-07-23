@@ -1,4 +1,47 @@
 {
+  "workbench.colorCustomizations": {},
+  "diffEditor.ignoreTrimWhitespace": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.initialHint": false,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "ruby.rubocop.onSave": false,
+  "claudeCode.environmentVariables": [],
+  "python.defaultInterpreterPath": "/home/victor/Documentos/desenvolvimento/fundos/.venv",
+  "claudeCode.preferredLocation": "panel",
+  "editor.language.brackets": [],
+  "workbench.settings.applyToAllProfiles": [
+    "files.defaultLanguage"
+  ],
+  "i18n-ally.displayLanguage": "Português",
+  "i18n-ally.sourceLanguage": "Inglês",
+  "terminal.integrated.commandsToSkipShell": [
+    "kilo-code.new.agentManagerOpen",
+    "kilo-code.new.agentManager.showTerminal"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editorAssociations": {
+    "*.json": "default"
+  },
+  "kilo-code.new.agentWorkStyle": "unset"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
   // =====================================
   // DICAS DE ATALHOS ESSENCIAIS
   // =====================================
