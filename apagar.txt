@@ -1,0 +1,700 @@
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ which code
+
+/snap/bin/code
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ code --version
+
+1.129.0
+125df4672b8a6a34975303c6b0baa124e560a4f7
+x64
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ dpkg -l | grep -Ei "code|vscode"
+
+ii  amd64-microcode                                     3.20251202.1ubuntu0.24.04.1                      amd64        Platform firmware and microcode for AMD CPUs and SoCs
+ii  dcraw                                               9.28-5ubuntu1                                    amd64        decode raw digital camera images
+ii  dmidecode                                           3.5-3ubuntu0.1                                   amd64        SMBIOS/DMI table decoder
+ii  fonts-noto-cjk                                      1:20230817+repack1-3                             all          "No Tofu" font families with large Unicode coverage (CJK regular and bold)
+ii  fonts-noto-cjk-extra                                1:20230817+repack1-3                             all          "No Tofu" font families with large Unicode coverage (CJK all weight)
+ii  fonts-noto-core                                     20201225-2                                       all          "No Tofu" font families with large Unicode coverage (core)
+ii  fonts-noto-extra                                    20201225-2                                       all          "No Tofu" font families with large Unicode coverage (extra)
+ii  fonts-noto-mono                                     20201225-2                                       all          "No Tofu" monospaced font family with large Unicode coverage
+ii  fonts-noto-ui-core                                  20201225-2                                       all          "No Tofu" font families with large Unicode coverage (UI core)
+ii  fonts-noto-ui-extra                                 20201225-2                                       all          "No Tofu" font families with large Unicode coverage (UI extra)
+ii  fonts-noto-unhinted                                 20201225-2                                       all          "No Tofu" font families with large Unicode coverage (unhinted)
+ii  fonts-sil-gentium                                   20081126:1.03-4                                  all          extended Unicode Latin font ("a typeface for the nations")
+ii  fonts-sil-gentium-basic                             1.102-1.1                                        all          smart Unicode font families (Basic and Book Basic) based on Gentium
+ii  geocode-glib-common                                 3.26.3-6build3                                   all          icons for the geocode-glib library
+ii  gstreamer1.0-packagekit                             1.2.8-2ubuntu1.5                                 amd64        GStreamer plugin to install codecs using PackageKit
+ii  heif-gdk-pixbuf:amd64                               1.17.6-1ubuntu4.6                                amd64        ISO/IEC 23008-12:2017 HEIF file format decoder - gdk-pixbuf loader
+ii  heif-thumbnailer                                    1.17.6-1ubuntu4.6                                amd64        ISO/IEC 23008-12:2017 HEIF file format decoder - thumbnailer
+ii  icu-devtools                                        74.2-1ubuntu3.1                                  amd64        Development utilities for International Components for Unicode
+ii  intel-microcode                                     3.20260210.0ubuntu0.24.04.1                      amd64        Processor microcode firmware for Intel CPUs
+ii  iso-codes                                           4.16.0-1                                         all          ISO language, territory, currency, script codes and their translations
+ii  iucode-tool                                         2.3.1-3build1                                    amd64        Intel processor microcode tool
+ii  libamd-comgr2:amd64                                 6.0+git20231212.4510c28+dfsg-3build2             amd64        ROCm code object manager
+ii  libaom3:amd64                                       3.8.2-2ubuntu0.1                                 amd64        AV1 Video Codec Library
+ii  libavcodec60:amd64                                  7:6.1.1-3ubuntu5                                 amd64        FFmpeg library with de/encoders for audio/video codecs - runtime files
+ii  libbrotli-dev:amd64                                 1.1.0-2build2                                    amd64        library implementing brotli encoder and decoder (development files)
+ii  libbrotli1:amd64                                    1.1.0-2build2                                    amd64        library implementing brotli encoder and decoder (shared libraries)
+ii  libcodec2-1.2:amd64                                 1.2.0-2build1                                    amd64        Codec2 runtime library
+ii  libdav1d7:amd64                                     1.4.1-1build1                                    amd64        fast and small AV1 video stream decoder (shared library)
+ii  libde265-0:amd64                                    1.0.15-1ubuntu0.1                                amd64        Open H.265 video codec implementation
+ii  libencode-locale-perl                               1.05-3                                           all          utility to determine the locale encoding
+ii  libencode-perl:amd64                                3.21-1build2                                     amd64        module providing interfaces between Perl's strings and the system
+ii  libfaad2:amd64                                      2.11.1-1build1                                   amd64        freeware Advanced Audio Decoder - runtime files
+ii  libflac12t64:amd64                                  1.4.3+ds-2.1ubuntu2                              amd64        Free Lossless Audio Codec - runtime C library
+ii  libfribidi0:amd64                                   1.0.13-3build1                                   amd64        Free Implementation of the Unicode BiDi algorithm
+ii  libgeocode-glib-2-0:amd64                           3.26.3-6build3                                   amd64        geocoding and reverse geocoding GLib library using Nominatim
+ii  libheif-plugin-aomdec:amd64                         1.17.6-1ubuntu4.6                                amd64        ISO/IEC 23008-12:2017 HEIF file format decoder - aomdec plugin
+ii  libheif-plugin-aomenc:amd64                         1.17.6-1ubuntu4.6                                amd64        ISO/IEC 23008-12:2017 HEIF file format decoder - aomenc plugin
+ii  libheif-plugin-libde265:amd64                       1.17.6-1ubuntu4.6                                amd64        ISO/IEC 23008-12:2017 HEIF file format decoder - libde265 plugin
+ii  libheif1:amd64                                      1.17.6-1ubuntu4.6                                amd64        ISO/IEC 23008-12:2017 HEIF file format decoder - shared library
+ii  libicu-dev:amd64                                    74.2-1ubuntu3.1                                  amd64        Development files for International Components for Unicode
+ii  libicu74:amd64                                      74.2-1ubuntu3.1                                  amd64        International Components for Unicode
+ii  libicu74:i386                                       74.2-1ubuntu3.1                                  i386         International Components for Unicode
+ii  libipt2                                             2.0.6-1build1                                    amd64        Intel Processor Trace Decoder Library
+ii  libjbig2dec0:amd64                                  0.20-1ubuntu0.24.04.1                            amd64        JBIG2 decoder library - shared libraries
+ii  libjs-async                                         0.8.0-6                                          all          functions and patterns for asynchronous code - web browsers
+ii  libjs-prettify                                      2015.12.04+dfsg-1.1                              all          syntax highlighting of source code snippets in an html page
+ii  libjs-regenerate                                    1.4.2-3                                          all          Unicode-aware regular expression generator (JavaScript library)
+ii  libkate1:amd64                                      0.4.1-11build2                                   amd64        Codec for karaoke and text encapsulation
+ii  libkf5codecs-data                                   5.115.0-0ubuntu5                                 all          collection of methods to manipulate strings
+ii  libkf5codecs5:amd64                                 5.115.0-0ubuntu5                                 amd64        collection of methods to manipulate strings
+ii  liblc3-1:amd64                                      1.0.4-3build1                                    amd64        Low Complexity Communication Codec (shared library)
+ii  libldacbt-enc2:amd64                                2.0.2.3+git20200429+ed310a0-4ubuntu2             amd64        LDAC Bluetooth encoder library (shared library)
+ii  libmad0:amd64                                       0.15.1b-10.2ubuntu1                              amd64        MPEG audio decoder library
+ii  libmpcdec6:amd64                                    2:0.1~r495-2build1                               amd64        MusePack decoder - library
+ii  libmpeg2-4:amd64                                    0.5.1-9build1                                    amd64        MPEG1 and MPEG2 video decoder library
+ii  libmpg123-0t64:amd64                                1.32.5-1ubuntu1.1                                amd64        MPEG layer 1/2/3 audio decoder (shared library)
+ii  libnvidia-decode-580:amd64                          580.159.03-0ubuntu0.24.04.1                      amd64        NVIDIA Video Decoding runtime libraries
+ii  libnvidia-decode-580:i386                           580.159.03-0ubuntu0.24.04.1                      i386         NVIDIA Video Decoding runtime libraries
+ii  libnvidia-encode-580:amd64                          580.159.03-0ubuntu0.24.04.1                      amd64        NVENC Video Encoding runtime library
+ii  libnvidia-encode-580:i386                           580.159.03-0ubuntu0.24.04.1                      i386         NVENC Video Encoding runtime library
+ii  libopus0:amd64                                      1.4-1build1                                      amd64        Opus codec runtime library
+ii  libqrcodegencpp1:amd64                              1.8.0-1.2build1                                  amd64        QR Code generator library in multiple languages - C++ version
+ii  libqrencode4:amd64                                  4.1.1-1build2                                    amd64        QR Code encoding library
+ii  librav1e0:amd64                                     0.7.1-2                                          amd64        Fastest and safest AV1 encoder - shared library
+ii  libsbc1:amd64                                       2.0-1build1                                      amd64        Sub Band CODEC library - runtime
+ii  libspeex1:amd64                                     1.2.1-2ubuntu2.24.04.1                           amd64        The Speex codec runtime library
+ii  libtheora0:amd64                                    1.1.1+dfsg.1-16.1build3                          amd64        Theora Video Compression Codec
+ii  libunibreak5:amd64                                  5.1-2build1                                      amd64        line breaking library for Unicode (shared library)
+ii  libunistring5:amd64                                 1.1-2build1.1                                    amd64        Unicode string library for C
+ii  libunistring5:i386                                  1.1-2build1.1                                    i386         Unicode string library for C
+ii  libvdpau-dev:amd64                                  1.5-2build1                                      amd64        Video Decode and Presentation API for Unix (development files)
+ii  libvdpau1:amd64                                     1.5-2build1                                      amd64        Video Decode and Presentation API for Unix (libraries)
+ii  libvorbis0a:amd64                                   1.3.7-1build3                                    amd64        decoder library for Vorbis General Audio Compression Codec
+ii  libvorbisenc2:amd64                                 1.3.7-1build3                                    amd64        encoder library for Vorbis General Audio Compression Codec
+ii  libvorbisfile3:amd64                                1.3.7-1build3                                    amd64        high-level API for Vorbis General Audio Compression Codec
+ii  libvpx9:amd64                                       1.14.0-1ubuntu2.3                                amd64        VP8 and VP9 video codec (shared library)
+ii  libwavpack1:amd64                                   5.6.0-1build1                                    amd64        audio codec (lossy and lossless) - library
+ii  libx265-199:amd64                                   3.5-2build1                                      amd64        H.265/HEVC video stream encoder (shared library)
+ii  libxvidcore4:amd64                                  2:1.3.7-1build1                                  amd64        Open source MPEG-4 video codec (library)
+ii  libytnef0:amd64                                     2.1.2-1build1                                    amd64        improved decoder for application/ms-tnef attachments
+ii  libzvbi-common                                      0.2.42-2                                         all          Vertical Blanking Interval decoder (VBI) - common files
+ii  libzvbi0t64:amd64                                   0.2.42-2                                         amd64        Vertical Blanking Interval decoder (VBI) - runtime files
+ii  node-ansi-escapes                                   5.0.0+really.4.3.1-1                             all          ANSI escape codes for manipulating the terminal
+ii  node-ansi-regex                                     5.0.1-1                                          all          regular expression for matching ANSI escape codes
+ii  node-ansi-styles                                    6.2.1-2                                          all          ANSI escape codes for styling strings in the terminal with Node.js
+ii  node-async                                          0.8.0-6                                          all          functions and patterns for asynchronous code - Node.js
+ii  node-cli-table                                      0.3.11+~cs0.13.4-3                               all          Pretty unicode tables for the CLI
+ii  node-err-code                                       2.0.3+dfsg-3                                     all          Create an error with a code
+ii  node-escodegen                                      2.1.0+dfsg+~0.0.8-1                              all          ECMAScript code generator
+ii  node-has-unicode                                    2.0.1-5                                          all          Try to guess if your terminal supports unicode
+ii  node-istanbul                                       0.4.5+repack10+~cs98.25.59-2                     all          JavaScript code coverage tool
+ii  node-punycode                                       2.2.3-2                                          all          Nodejs robust Punycode converter fully RFC compliant
+ii  node-regenerate                                     1.4.2-3                                          all          Unicode-aware regular expression generator (Node.js module)
+ii  node-regenerate-unicode-properties                  10.1.0+ds-1                                      all          Unicode properties and values as Regenerate sets for Node.js
+ii  node-slice-ansi                                     5.0.0+~cs9.0.0-5                                 all          Slice a string with ANSI escape codes
+ii  node-string-decoder                                 1.3.0-6                                          all          string_decoder module from Node core for browsers
+ii  node-strip-ansi                                     6.0.1-2                                          all          Strip ANSI escape codes
+ii  node-unicode-canonical-property-names-ecmascript    2.0.0-2                                          all          Unicode property names supported in ES RegExp in Node.js
+ii  node-unicode-match-property-ecmascript              2.0.0-2                                          all          Match a Unicode property to its canonical name for Node.js
+ii  node-unicode-match-property-value-ecmascript        2.1.0+ds-1                                       all          Match a Unicode property value to its canonical version in Node.js
+ii  node-unicode-property-aliases-ecmascript            2.1.0+ds-1                                       all          Unicode property aliases mapping for property names in Node.js
+ii  node-webpack-sources                                3.2.3+~3.2.0-2                                   all          Source code handling classes for webpack
+ii  node-wrap-ansi                                      8.0.1+~8.0.1-3                                   all          Wordwrap a string with ANSI escape codes
+ii  python3-cffi-backend:amd64                          1.16.0-2build1                                   amd64        Foreign Function Interface for Python 3 calling C code - runtime
+ii  qrencode                                            4.1.1-1build2                                    amd64        QR Code encoder into PNG image
+ii  vdpau-driver-all:amd64                              1.5-2build1                                      amd64        Video Decode and Presentation API for Unix (driver metapackage)
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ snap list | grep -Ei "code|vscode"
+
+code               125df467                        251    latest/stable  vscode**      classic
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ flatpak list | grep -Ei "code|vscode"
+Codecs Extra Extension	org.freedesktop.Platform.codecs-extra		25.08-extra	flathub	system
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ which claude
+
+/home/victor/.local/bin/claude
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ claude --version
+
+2.1.210 (Claude Code)
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ npm list -g --depth=0 | grep -i claude
+
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ pnpm list -g --depth=0 | grep -i claude
+
+Comando 'pnpm' não encontrado, você quis dizer:
+  comando 'npm' do deb npm (9.2.0~ds1-2)
+Experimente: sudo apt install <deb name>
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ yarn global list | grep -i claude
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ find ~/.local ~/.config ~/.cache ~/.npm ~/.claude -iname "*claude*" 2>/dev/null
+/home/victor/.local/bin/claude
+/home/victor/.local/state/claude
+/home/victor/.local/share/applications/claude-code-url-handler.desktop
+/home/victor/.local/share/claude
+/home/victor/.config/Code/logs/20260722T180059/window2/exthost/Anthropic.claude-code
+/home/victor/.config/Code/logs/20260722T180059/window2/exthost/Anthropic.claude-code/Claude VSCode.log
+/home/victor/.config/Code/logs/20260722T195221/window1/exthost/Anthropic.claude-code
+/home/victor/.config/Code/logs/20260722T195221/window1/exthost/Anthropic.claude-code/Claude VSCode.log
+/home/victor/.config/Code/CachedExtensionVSIXs/anthropic.claude-code-2.1.218-linux-x64
+/home/victor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.com_0.indexeddb.blob
+/home/victor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.leveldb
+/home/victor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.ai_0.indexeddb.blob
+/home/victor/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_claude.com_0.indexeddb.leveldb
+/home/victor/.cache/claude-cli-nodejs
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-kallisto/mcp-logs-claude-ai-Google-Calendar
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-kallisto/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-kallisto/mcp-logs-claude-ai-Google-Drive
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento/mcp-logs-claude-ai-Google-Calendar
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento/mcp-logs-claude-ai-Google-Drive
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-artemis2/mcp-logs-claude-ai-Google-Calendar
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-artemis2/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-artemis2/mcp-logs-claude-ai-Google-Drive
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-mpgo-business-rule-review/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-artemis2-tmp/mcp-logs-claude-ai-Google-Calendar
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-artemis2-tmp/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor-Documentos-desenvolvimento-artemis2-tmp/mcp-logs-claude-ai-Google-Drive
+/home/victor/.cache/claude-cli-nodejs/-home-victor--claude
+/home/victor/.cache/claude-cli-nodejs/-home-victor--claude/mcp-logs-claude-ai-Google-Calendar
+/home/victor/.cache/claude-cli-nodejs/-home-victor--claude/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor--claude/mcp-logs-claude-ai-Google-Drive
+/home/victor/.cache/claude-cli-nodejs/-home-victor/mcp-logs-claude-ai-Google-Calendar
+/home/victor/.cache/claude-cli-nodejs/-home-victor/mcp-logs-claude-ai-Gmail
+/home/victor/.cache/claude-cli-nodejs/-home-victor/mcp-logs-claude-ai-Google-Drive
+/home/victor/.cache/gnome-software/icons/489466c20964f3f84e4070d6c8f0c0e09bcf42c5-claude-code_logo.png
+/home/victor/.cache/gnome-software/icons/8757a7e65c7e747145ba1d5fcc24f849e19731cd-claude_app_icon.png
+/home/victor/.cache/claude
+/home/victor/.claude
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/example-plugin/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/pr-review-toolkit/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-server-dev/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/math-olympiad/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/explanatory-output-style/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/security-guidance/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/revise-claude-md-example.png
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/claude-md-improver-example.png
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/commands/revise-claude-md.md
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-md-management/skills/claude-md-improver
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/skill-creator/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/project-artifact/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-simplifier/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-modernization/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/learning-output-style/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/cwc-makers/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/plugin-dev/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/commit-commands/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/mcp-tunnels/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/agent-sdk-dev/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/frontend-design/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/feature-dev/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/hookify/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/ralph-loop/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/code-review/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/claude-code-setup/skills/claude-automation-recommender
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/plugins/playground/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/context7/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/linear/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/github/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/greptile/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/asana/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/terraform/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/discord/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/gitlab/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/laravel-boost/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/telegram/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/imessage/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/firebase/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/fakechat/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/playwright/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/external_plugins/serena/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-plugins-official/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/daymade-skills/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/daymade-skills/.claude
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/claude-code-history-files-finder
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/claude-export-txt-better
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/claude-export-txt-better/scripts/fix-claude-export.py
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/claude-export-txt-better/scripts/validate-claude-export-fix.py
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/claude-skills-troubleshooting
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/claude-md-progressive-disclosurer
+/home/victor/.claude/plugins/marketplaces/daymade-skills/daymade-claude-code/continue-claude-work
+/home/victor/.claude/plugins/marketplaces/daymade-skills/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/java/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/ruby/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/php/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/go/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/python/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/csharp/claude-api
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/shared/claude-platform-on-aws.md
+/home/victor/.claude/plugins/marketplaces/anthropic-agent-skills/skills/claude-api/typescript/claude-api
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/productivity-skills-plugin/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/.claude
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/visual-documentation-plugin/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/code-operations-plugin/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/mhattingpete-claude-skills/engineering-workflow-plugin/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/sentry-skills/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/sentry-skills/.claude
+/home/victor/.claude/plugins/marketplaces/sentry-skills/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/sentry-skills/skills/skill-writer/references/claude-code-extensions.md
+/home/victor/.claude/plugins/marketplaces/sentry-skills/skills/claude-settings-audit
+/home/victor/.claude/plugins/marketplaces/claude-code-skills
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/marketing-skill/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/marketing-skill/video-content-strategist/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/marketing-skill/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/.github/workflows/claude.yml
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/.github/workflows/claude-code-review.yml
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/data-quality-auditor/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/demo-video/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/llm-cost-optimizer/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/agenthub/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/agenthub/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/prompt-governance/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/docker-development/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/karpathy-coder/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/statistical-analyst/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/helm-chart-builder/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/llm-wiki/assets/CLAUDE.md.template
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/llm-wiki/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/behuman/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/terraform-patterns/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/code-tour/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/autoresearch-agent/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering/autoresearch-agent/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/.claude
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/c-level-advisor/executive-mentor/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/c-level-advisor/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/c-level-advisor/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/finance/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/finance/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/finance/business-investment-advisor/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/project-management/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/project-management/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/agents/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/business-growth/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/business-growth/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/product-team/research-summarizer/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/product-team/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/product-team/code-to-prd/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/product-team/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/product-team/apple-hig-expert/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/ra-qm-team/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/ra-qm-team/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/templates/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/docs/guides/best-claude-code-plugins.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/playwright-pro/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/playwright-pro/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/google-workspace-cli/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/snowflake-development/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/self-improving-agent/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/self-improving-agent/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/engineering-team/a11y-audit/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/claude-code-skills/standards/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/trailofbits/CLAUDE.md
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/burpsuite-project-parser/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/workflow-skill-design/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/supply-chain-risk-auditor/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/sharp-edges/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/variant-analysis/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/spec-to-code-compliance/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/culture-index/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/testing-handbook-skills/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/seatbelt-sandboxer/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/property-based-testing/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/static-analysis/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/insecure-defaults/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/gh-cli/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/git-cleanup/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/zeroize-audit/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/devcontainer-setup/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/ask-questions-if-underspecified/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/let-fate-decide/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/skill-improver/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/debug-buttercup/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/constant-time-analysis/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/dimensional-analysis/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/building-secure-contracts/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/differential-review/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/fp-check/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/firebase-apk-scanner/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/agentic-actions-auditor/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/trailmark/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/semgrep-rule-creator/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/second-opinion/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/semgrep-rule-variant-creator/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/modern-python/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/yara-authoring/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/audit-context-building/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/mutation-testing/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/dwarf-expert/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/entry-point-analyzer/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/claude-in-chrome-troubleshooting
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/claude-in-chrome-troubleshooting/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/plugins/claude-in-chrome-troubleshooting/skills/claude-in-chrome-troubleshooting
+/home/victor/.claude/plugins/marketplaces/trailofbits/.claude-plugin
+/home/victor/.claude/plugins/marketplaces/trailofbits/.codex/skills/claude-in-chrome-troubleshooting
+/home/victor/.claude/backups/.claude.json.backup.1784143212891
+/home/victor/.claude/backups/.claude.json.backup.1784143988654
+/home/victor/.claude/backups/.claude.json.backup.1784142811813
+/home/victor/.claude/backups/.claude.json.backup.1784143287086
+/home/victor/.claude/backups/.claude.json.backup.1784759658863
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ which kiro
+
+kiro not found
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ find ~/.local ~/.config ~/.cache -iname "*kiro*" 2>/dev/null
+/home/victor/.local/bin/kiro-cli-chat
+/home/victor/.local/bin/kiro-cli-term
+/home/victor/.local/bin/kiro-cli
+/home/victor/.local/share/kiro-cli
+/home/victor/.local/share/kiro-cli/knowledge_bases/kiro_default
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ which antigravity
+
+/usr/bin/antigravity
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ find ~/.local ~/.config ~/.cache -iname "*antigravity*" 2>/dev/null
+/home/victor/.config/Antigravity
+/home/victor/.config/Antigravity/logs/20260715T212701/antigravity-interactive-editor.log
+/home/victor/.config/Antigravity/logs/20260715T212701/window1/exthost/output_logging_20260715T212703/6-Remote - Dev Containers (Antigravity).log
+/home/victor/.config/Antigravity/logs/20260715T212701/window1/exthost/google.antigravity
+/home/victor/.config/Antigravity/logs/20260715T212701/window1/exthost/google.antigravity/Antigravity.log
+/home/victor/.config/Antigravity/logs/20260715T212701/window1/exthost/google.antigravity/Antigravity Crash Logs.log
+/home/victor/.config/Antigravity/logs/20260715T211431/antigravity-interactive-editor.log
+/home/victor/.config/Antigravity/logs/20260715T211431/window1/exthost/output_logging_20260715T211435/6-Remote - Dev Containers (Antigravity).log
+/home/victor/.config/Antigravity/logs/20260715T211431/window1/exthost/google.antigravity
+/home/victor/.config/Antigravity/logs/20260715T211431/window1/exthost/google.antigravity/Antigravity.log
+/home/victor/.config/Antigravity/logs/20260715T211431/window1/exthost/google.antigravity/Antigravity Crash Logs.log
+/home/victor/.config/Antigravity/logs/20260723T092445/antigravity-interactive-editor.log
+/home/victor/.config/Antigravity/logs/20260723T092445/window1/exthost/output_logging_20260723T092448/7-Remote - Dev Containers (Antigravity).log
+/home/victor/.config/Antigravity/logs/20260723T092445/window1/exthost/google.antigravity
+/home/victor/.config/Antigravity/logs/20260723T092445/window1/exthost/google.antigravity/Antigravity.log
+/home/victor/.config/Antigravity/logs/20260723T092445/window1/exthost/google.antigravity/Antigravity Crash Logs.log
+/home/victor/.cache/gnome-software/icons/cee5d0ca6b33c359622607e505a2c60f837597b6-antigravity-cli_logo.png
+/home/victor/.cache/gnome-software/icons/7d7c283c8c59411d2a42891583f97043efd82004-antigravity-logo-square.png
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ find ~/.config ~/.local ~/.cache -iname "*kilocode*" 2>/dev/null
+/home/victor/.config/kilo/node_modules/@kilocode
+/home/victor/.config/Antigravity/User/globalStorage/kilocode.kilo-code
+/home/victor/.config/Antigravity/CachedExtensionVSIXs/.trash/kilocode.kilo-code-7.4.15-linux-x64
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ find ~/.config ~/.local ~/.cache -iname "*mimo*" 2>/dev/null
+/home/victor/.cache/gnome-software/icons/e881fbc74ca5a656cb76ecdc1fbd51dba1cdca6c-io.github.mimoguz.tripeaks_neue.png
+/home/victor/.cache/gnome-software/icons/334aafb08d7d462d6ed267bff6e22384c6ea2b41-io.github.mimoguz.tripeaks_neue.png
+/home/victor/.cache/gnome-software/icons/e5dc3ba019248571860a7c529c0aedf70216ff55-io.github.mimoguz.TriPeaks-GDX.png
+/home/victor/.cache/gnome-software/icons/aaa52aed0deabc1a9493f79b5bfeee8ac52d8374-io.github.mimoguz.TriPeaks-GDX.png
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ find ~/.config ~/.local ~/.cache -iname "*freebuff*" 2>/dev/null
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ apt list --installed | grep -Ei "code|claude|kiro|gravity|opencode"
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+amd64-microcode/noble-updates,noble-security,now 3.20251202.1ubuntu0.24.04.1 amd64 [instalado,automático]
+antigravity/antigravity-debian,now 1.23.2-1776332190 amd64 [instalado]
+dmidecode/noble-updates,now 3.5-3ubuntu0.1 amd64 [instalado,automático]
+geocode-glib-common/noble,noble,now 3.26.3-6build3 all [instalado,automático]
+intel-microcode/noble-updates,noble-security,now 3.20260210.0ubuntu0.24.04.1 amd64 [instalado,automático]
+iso-codes/noble,noble,now 4.16.0-1 all [instalado]
+iucode-tool/noble,now 2.3.1-3build1 amd64 [instalado,automático]
+libavcodec60/noble,now 7:6.1.1-3ubuntu5 amd64 [instalado,automático]
+libcodec2-1.2/noble,now 1.2.0-2build1 amd64 [instalado,automático]
+libencode-locale-perl/noble,noble,now 1.05-3 all [instalado,automático]
+libencode-perl/noble,now 3.21-1build2 amd64 [instalado,automático]
+libgeocode-glib-2-0/noble,now 3.26.3-6build3 amd64 [instalado,automático]
+libkf5codecs-data/noble,noble,now 5.115.0-0ubuntu5 all [instalado,automático]
+libkf5codecs5/noble,now 5.115.0-0ubuntu5 amd64 [instalado,automático]
+libnvidia-decode-580/noble-security,now 580.159.03-0ubuntu0.24.04.1 amd64 [instalado,atualizável para: 580.173.02-0ubuntu0.24.04.1]
+libnvidia-decode-580/noble-security,now 580.159.03-0ubuntu0.24.04.1 i386 [instalado,atualizável para: 580.173.02-0ubuntu0.24.04.1]
+libnvidia-encode-580/noble-security,now 580.159.03-0ubuntu0.24.04.1 amd64 [instalado,atualizável para: 580.173.02-0ubuntu0.24.04.1]
+libnvidia-encode-580/noble-security,now 580.159.03-0ubuntu0.24.04.1 i386 [instalado,atualizável para: 580.173.02-0ubuntu0.24.04.1]
+libqrcodegencpp1/noble,now 1.8.0-1.2build1 amd64 [instalado,automático]
+libqrencode4/noble,now 4.1.1-1build2 amd64 [instalado,automático]
+node-err-code/noble,noble,now 2.0.3+dfsg-3 all [instalado,automático]
+node-escodegen/noble,noble,now 2.1.0+dfsg+~0.0.8-1 all [instalado,automático]
+node-has-unicode/noble,noble,now 2.0.1-5 all [instalado,automático]
+node-punycode/noble,noble,now 2.2.3-2 all [instalado,automático]
+node-regenerate-unicode-properties/noble,noble,now 10.1.0+ds-1 all [instalado,automático]
+node-string-decoder/noble,noble,now 1.3.0-6 all [instalado,automático]
+node-unicode-canonical-property-names-ecmascript/noble,noble,now 2.0.0-2 all [instalado,automático]
+node-unicode-match-property-ecmascript/noble,noble,now 2.0.0-2 all [instalado,automático]
+node-unicode-match-property-value-ecmascript/noble,noble,now 2.1.0+ds-1 all [instalado,automático]
+node-unicode-property-aliases-ecmascript/noble,noble,now 2.1.0+ds-1 all [instalado,automático]
+qrencode/noble,now 4.1.1-1build2 amd64 [instalado,automático]
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ uv tool list
+Comando 'uv' não encontrado, mas poder ser instalado com:
+sudo snap install astral-uv
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ pipx list
+venvs are in /home/victor/.local/share/pipx/venvs
+apps are exposed on your $PATH at /home/victor/.local/bin
+manual pages are exposed at /home/victor/.local/share/man
+   package thefuck 3.32, installed using Python 3.12.3
+    - fuck
+    - thefuck
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ pip list
+pip3 list
+Package                  Version
+------------------------ ---------------
+apturl                   0.5.2
+argcomplete              3.1.4
+bcc                      0.29.1
+bcrypt                   3.2.2
+beautifulsoup4           4.12.3
+blinker                  1.7.0
+Brlapi                   0.8.5
+cachetools               5.3.0
+certifi                  2023.11.17
+chardet                  5.2.0
+click                    8.1.6
+colorama                 0.4.6
+command-not-found        0.3
+configobj                5.0.8
+cryptography             41.0.7
+cssselect                1.2.0
+cupshelpers              1.0
+dbus-python              1.3.2
+defer                    1.0.6
+distro                   1.9.0
+distro-info              1.7+build1
+duplicity                2.1.4
+fail2ban                 1.0.2
+fasteners                0.18
+filelock                 3.13.1
+git-filter-repo          2.38.0
+google-api-python-client 1.7.12
+google-auth              1.5.1
+google-auth-httplib2     0.2.0
+greenlet                 3.0.3
+gyp                      0.1
+html5lib                 1.1
+httplib2                 0.20.4
+icoextract               0.1.6
+idna                     3.6
+language-selector        0.1
+launchpadlib             1.11.0
+lazr.restfulclient       0.14.6
+lazr.uri                 1.0.6
+louis                    3.29.0
+lxml                     5.2.1
+Mako                     1.3.2.dev0
+markdown-it-py           3.0.0
+MarkupSafe               2.1.5
+mdurl                    0.1.2
+mnemonic                 0.19
+monotonic                1.6
+netaddr                  0.8.0
+netifaces                0.11.0
+oauth2client             4.1.3
+oauthlib                 3.2.2
+olefile                  0.46
+packaging                24.0
+paramiko                 2.12.0
+pefile                   2023.2.7
+pexpect                  4.9.0
+pillow                   10.2.0
+pip                      24.0
+pipx                     1.4.3
+platformdirs             4.2.0
+psutil                   5.9.8
+ptyprocess               0.7.0
+pyasn1                   0.4.8
+pyasn1-modules           0.2.8
+pyasyncore               1.0.2
+pycairo                  1.25.1
+pycups                   2.0.1
+PyDrive2                 0.0.0
+pyelftools               0.30
+Pygments                 2.17.2
+PyGObject                3.48.2
+pyinotify                0.9.6
+PyJWT                    2.7.0
+PyNaCl                   1.5.0
+pyOpenSSL                23.2.0
+pyparsing                3.1.1
+python-apt               2.7.7+ubuntu5.2
+python-dateutil          2.8.2
+python-debian            0.1.49+ubuntu2
+pyxdg                    0.28
+PyYAML                   6.0.1
+requests                 2.31.0
+requests-file            1.5.1
+rich                     13.7.1
+rsa                      4.9
+screen-resolution-extra  0.0.0
+setproctitle             1.3.3
+setuptools               68.1.2
+six                      1.16.0
+soupsieve                2.5
+SQLAlchemy               1.4.50
+systemd-python           235
+thefuck                  3.32
+tldextract               3.1.2
+typing_extensions        4.10.0
+ubuntu-drivers-common    0.0.0
+ufw                      0.36.2
+unattended-upgrades      0.1
+uritemplate              4.1.1
+urllib3                  2.0.7
+userpath                 1.9.1
+wadllib                  1.3.6
+webencodings             0.5.1
+wheel                    0.42.0
+xdg                      5
+xkit                     0.0.0
+zorin-appearance         5.3
+zorin-connect            1.2
+zorin-exec-guard         1.5
+Package                  Version
+------------------------ ---------------
+apturl                   0.5.2
+argcomplete              3.1.4
+bcc                      0.29.1
+bcrypt                   3.2.2
+beautifulsoup4           4.12.3
+blinker                  1.7.0
+Brlapi                   0.8.5
+cachetools               5.3.0
+certifi                  2023.11.17
+chardet                  5.2.0
+click                    8.1.6
+colorama                 0.4.6
+command-not-found        0.3
+configobj                5.0.8
+cryptography             41.0.7
+cssselect                1.2.0
+cupshelpers              1.0
+dbus-python              1.3.2
+defer                    1.0.6
+distro                   1.9.0
+distro-info              1.7+build1
+duplicity                2.1.4
+fail2ban                 1.0.2
+fasteners                0.18
+filelock                 3.13.1
+git-filter-repo          2.38.0
+google-api-python-client 1.7.12
+google-auth              1.5.1
+google-auth-httplib2     0.2.0
+greenlet                 3.0.3
+gyp                      0.1
+html5lib                 1.1
+httplib2                 0.20.4
+icoextract               0.1.6
+idna                     3.6
+language-selector        0.1
+launchpadlib             1.11.0
+lazr.restfulclient       0.14.6
+lazr.uri                 1.0.6
+louis                    3.29.0
+lxml                     5.2.1
+Mako                     1.3.2.dev0
+markdown-it-py           3.0.0
+MarkupSafe               2.1.5
+mdurl                    0.1.2
+mnemonic                 0.19
+monotonic                1.6
+netaddr                  0.8.0
+netifaces                0.11.0
+oauth2client             4.1.3
+oauthlib                 3.2.2
+olefile                  0.46
+packaging                24.0
+paramiko                 2.12.0
+pefile                   2023.2.7
+pexpect                  4.9.0
+pillow                   10.2.0
+pip                      24.0
+pipx                     1.4.3
+platformdirs             4.2.0
+psutil                   5.9.8
+ptyprocess               0.7.0
+pyasn1                   0.4.8
+pyasn1-modules           0.2.8
+pyasyncore               1.0.2
+pycairo                  1.25.1
+pycups                   2.0.1
+PyDrive2                 0.0.0
+pyelftools               0.30
+Pygments                 2.17.2
+PyGObject                3.48.2
+pyinotify                0.9.6
+PyJWT                    2.7.0
+PyNaCl                   1.5.0
+pyOpenSSL                23.2.0
+pyparsing                3.1.1
+python-apt               2.7.7+ubuntu5.2
+python-dateutil          2.8.2
+python-debian            0.1.49+ubuntu2
+pyxdg                    0.28
+PyYAML                   6.0.1
+requests                 2.31.0
+requests-file            1.5.1
+rich                     13.7.1
+rsa                      4.9
+screen-resolution-extra  0.0.0
+setproctitle             1.3.3
+setuptools               68.1.2
+six                      1.16.0
+soupsieve                2.5
+SQLAlchemy               1.4.50
+systemd-python           235
+thefuck                  3.32
+tldextract               3.1.2
+typing_extensions        4.10.0
+ubuntu-drivers-common    0.0.0
+ufw                      0.36.2
+unattended-upgrades      0.1
+uritemplate              4.1.1
+urllib3                  2.0.7
+userpath                 1.9.1
+wadllib                  1.3.6
+webencodings             0.5.1
+wheel                    0.42.0
+xdg                      5
+xkit                     0.0.0
+zorin-appearance         5.3
+zorin-connect            1.2
+zorin-exec-guard         1.5
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ code --list-extensions > extensions.txt
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ antigravity --list-extensions >> extensions.txt
+[createInstance] extensionManagementService depends on antigravityAnalytics which is NOT registered.
+╭─victor@victor-note ~  ‹java-17.0.19›
+╰─$ 
